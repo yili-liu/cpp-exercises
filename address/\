@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x = 42;
+    float y = 72;
+    char a = 'a';
+    signed char b = 'b';
+    unsigned char c = 'c';
+    char d = '*';
+    char* e = "test";
+
+    cout << "x: " << &x << endl;
+    cout << "y: " << &y << endl;
+    cout << "a: " << &a << endl;
+    cout << "b: " << &b << endl;
+    cout << "c: " << &c << endl;
+    cout << "d: " << &c << endl;
+    cout << "e: " << e << endl;
+}

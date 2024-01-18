@@ -1,0 +1,4 @@
+resources:
+- valgrind - detect memory leaks
+- gdb - debug things like seg faults
+- compiler explorer - see what the compiler does 
